@@ -1,0 +1,30 @@
+# Chart settings
+set title "XDXD"
+unset key
+set terminal png enhanced 
+
+set terminal png enhanced 
+set output "test.png"
+# XYChart settings
+set nologscale
+set xr [*:*] noreverse
+set yr [*:*] noreverse
+set xlabel ""
+set ylabel ""
+# XYData Plotting
+plot \
+'-'  using 1:2 title "Label" with linespoints linecolor rgbcolor "web-blue" 
+# Label
+1.0	0.0691253775730805
+2.0	0.0691253775730805
+3.0	0.0691253775730805
+4.0	0.0691253775730805
+5.0	0.0691253775730805
+6.0	0.0691253775730805
+7.0	0.0691253775730805
+end
+
+unset output
+# Wrapup
+set terminal dumb
+refresh

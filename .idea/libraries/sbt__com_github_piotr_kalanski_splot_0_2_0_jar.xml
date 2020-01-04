@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.piotr-kalanski:splot:0.2.0:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.ivy2/cache/com.github.piotr-kalanski/splot/jars/splot-0.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.ivy2/cache/com.github.piotr-kalanski/splot/srcs/splot-0.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
